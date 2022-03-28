@@ -33,8 +33,10 @@ class _CounterScreenState extends State<CounterScreen> {
             const SizedBox(height: 10.0,),
             ElevatedButton(onPressed: (){
               currentState.increment();
-            }, child: const Text('+',style: TextStyle(fontSize:15),)),
+            },
+                child: const Text('+',style: TextStyle(fontSize:15),)),
             const SizedBox(height: 10.0,),
+
             ElevatedButton(onPressed: (){
               currentState.decrement();
             }, child: const Text('-',style: TextStyle(fontSize:15),)),
